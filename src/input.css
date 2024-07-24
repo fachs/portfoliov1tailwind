@@ -17,11 +17,11 @@ body {
 }
 
 .hamburger-active > span:nth-child(1) {
-    @apply rotate-45 text-white;
+    @apply rotate-[40deg] text-white;
 }
 
 .hamburger-active > span:nth-child(3) {
-    @apply -rotate-45;
+    @apply -rotate-[40deg];
 }
 
 .hamburger-active > span:nth-child(2) {
